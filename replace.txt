@@ -1,2 +1,2 @@
-grep -rl "daftar-sekarang" . | xargs sed -i "s/daftar-sekarang/new-name/g"
+grep -rl "daftar-sekarang-2" . | xargs sed -i "s/daftar-sekarang-2/new-name/g"
 grep -rl "Daftar Sekarang" . | xargs sed -i "s/Daftar Sekarang/New Name/g"
